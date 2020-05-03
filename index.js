@@ -96,7 +96,8 @@ function generateREADME(answers) {
 
     return `
 # ${answers.title}
-## By: ${answers.username}
+## By: ${answers.username} - ![GitHub followers](https://img.shields.io/github/followers/${answers.username}?label=Follow&style=social)
+
 ${answers.contributing}
 
 # Table of Contents:
